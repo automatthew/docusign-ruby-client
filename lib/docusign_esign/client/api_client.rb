@@ -485,7 +485,7 @@ module DocuSign_eSign
       data
     end
 
-    # Request JWT User Token
+    # Request JWT Application Token
     # @param [String] client_id DocuSign OAuth Client Id(AKA Integrator Key)
     # @param [String] private_key_or_filename the RSA private key
     # @param [Number] expires_in number of seconds remaining before the JWT assertion is considered as invalid
